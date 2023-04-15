@@ -7,7 +7,6 @@ function writePassword() {
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
-
 }
 
 // Add event listener to generate button
@@ -17,35 +16,68 @@ generateBtn.addEventListener("click", writePassword);
 function generatePassword() 
 {
   //declear arrays
-  var specialChar = '\!,\",\#,\$,\%,\&,\',\(,\),\*,\+,\,,\-,\.,\,\:,\;,\<,\=,\>,\?,\@,\[,\\,\],\^,\_,\`,\{,\|,\},\~';
-  var upperCase = 'ABCDEFGHIJKLMNOPQRSTUVWXYZz';
-  var lowerCase = 'abcdefghijklmnopqrstuvwxy';
-  var numeric = '0123456789';
-  var charactersLength = prompt("How many characters you want to have in your password?(8-128 characters)");
-  var finalCharacters = '';
-  var result = '';
+  var specialChar =
+    "!,\",#,$,%,&,',(,),*,+,,,-,.,,:,;,<,=,>,?,@,[,\\,],^,_,`,{,|,},~";
+  var upperCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZz";
+  var lowerCase = "abcdefghijklmnopqrstuvwxy";
+  var numeric = "0123456789";
+  var finalCharacters = ""; 
+  
+  var charactersLength = prompt(
+    "How many characters you want to have in your password?(8-128 characters)"
+  );
 
-  If(confirm("Do you want uppercase in your passowrd?"))
-    {
-      finalCharacters = finalCharacters + upperCase;
-    }
-    else if(confirm("Do you want lowercase in your passowrd?")
-    {
-      finalCharacters = finalCharacters + lowerCase;
-
-    }
-    else if(confirm("Do you want numeric charaters in your passowrd?")
-    {
-      finalCharacters = finalCharacters + numeric;
-    }
-
-  if(charactersLength <= 128 && charactersLength >= 8 )
-  {
-    for (let step = 0; step < charactersLength; step++)
-    { 
-      result = result + finalCharacters[step];
-    }
-    
+  if (charactersLength < 8 || charactersLength > 128) {
+    alert(
+      "Invalid input. Password length must be between 8 and 128 characters."
+    );
+    ProcessingInstructon.exit(0);
   }
-  return result;
+
+  var numOfTypes = 0;
+  CharTypes();
+  function CharTypes()
+  {
+  
+    if (confirm("Do you want uppercase in your passowrd?")) {
+      finalCharacters += upperCase;
+      numOfTypes++;
+    }
+
+    if (confirm("Do you want lowercase in your passowrd?")) {
+      finalCharacters += lowerCase;
+      numOfTypes++;
+    }
+
+    if (confirm("Do you want numeric charaters in your passowrd?")) {
+      finalCharacters += numeric;
+      numOfTypes++;
+    }
+
+    if (confirm("Do you want Special charaters in your passowrd?")) {
+      finalCharacters += specialChar;
+      numOfTypes++;
+    }
+    return finalCharacters;
+  }
+  
+
+  var password = "";
+
+  if(numOfTypes > 0)
+  {
+    for (var step = 0; step < charactersLength; step++) 
+    {
+      var randomIdex = Math.floor(Math.random() * finalCharacters.length);
+      password += finalCharacters[randomIdex];
+    }
+    return password;
+  }
+  else
+  {
+      alert("Please select to include at last one type of character for your password!");
+      CharTypes();
+  }
+
 }
+
