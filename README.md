@@ -29,3 +29,26 @@ THEN a password is generated that matches the selected criteria
 WHEN the password is generated
 THEN the password is either displayed in an alert or written to the page
 ```
+
+## Mock-up
+<!--TBD-->
+[![#]](https:/#/)
+
+## Contact Me
+
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/jen-h-202a1723/)
+[![Github][Github-shield]](https://github.com/jenho-webdev/Personal-Portfolio)
+[![Slack][slack-shield]](https://jenworkspace-as73396.slack.com/archives/C052QLTJQHG)
+
+## Acknowledgments
+
+- Shield and badges used in this markdown document were sourced from [Shields.io](https://shields.io/).
+-Starter Code and site images were provided by UCI Bootcamp Course.
+- This website was inspired by UCIBookcamp Week 3 Assignment. The base mockup, user story, acceptance criteria were provided by UCI Bootcamp Full Stack WebDev Course.
+ 
+<!-- MARKDOWN LINKS & IMAGES -->
+
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/linkedin_username
+[Github-shield]:https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white
+[slack-shield]:https://img.shields.io/badge/Slack-4A154B?style=for-the-badge&logo=slack&logoColor=white
