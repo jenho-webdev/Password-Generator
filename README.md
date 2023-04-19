@@ -4,46 +4,42 @@ A Challenge requires you to modify starter code to create an application that en
 
 ## User Story
 
-`````
-AS AN employee with access to sensitive data
-I WANT to randomly generate a password that meets certain criteria
-SO THAT I can create a strong password that provides greater security
-```
+
+    AS AN employee with access to sensitive data
+    I WANT to randomly generate a password that meets certain criteria
+    SO THAT I can create a strong password that provides greater security
 
 ## Acceptance Criteria
 
-```
-GIVEN I need a new, secure password
-WHEN I click the button to generate a password
-THEN I am presented with a series of prompts for password criteria
-WHEN prompted for password criteria
-THEN I select which criteria to include in the password
-WHEN prompted for the length of the password
-THEN I choose a length of at least 8 characters and no more than 128 characters
-WHEN asked for character types to include in the password
-THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
-WHEN I answer each prompt
-THEN my input should be validated and at least one character type should be selected
-WHEN all prompts are answered
-THEN a password is generated that matches the selected criteria
-WHEN the password is generated
-THEN the password is either displayed in an alert or written to the page
-```
 
+    GIVEN I need a new, secure password
+    WHEN I click the button to generate a password
+    THEN I am presented with a series of prompts for password criteria
+    WHEN prompted for password criteria
+    THEN I select which criteria to include in the password
+    WHEN prompted for the length of the password
+    THEN I choose a length of at least 8 characters and no more than 128 characters
+    WHEN asked for character types to include in the password
+    THEN I confirm whether or not to include lowercase, uppercase, numeric, and/or special characters
+    WHEN I answer each prompt
+    THEN my input should be validated and at least one character type should be selected
+    WHEN all prompts are answered
+    THEN a password is generated that matches the selected criteria
+    WHEN the password is generated
+    THEN the password is either displayed in an alert or written to the page
 ## Mock-up
-[./assets/mock-up.gif]
-
+![mock-up](./assets/mock-up.gif 'demo')
 ## Contact Me
 
-[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/jen-h-202a1723/)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.co``m/in/jen-h-202a1723/)
 [![Github][Github-shield]](https://github.com/jenho-webdev/Personal-Portfolio)
 [![Slack][slack-shield]](https://jenworkspace-as73396.slack.com/archives/C052QLTJQHG)
 
 ## Acknowledgments
 
-- Shield and badges used in this markdown document were sourced from [Shields.io](https://shields.io/).
--Starter Code and site images were provided by UCI Bootcamp Course.
-- This website was inspired by UCIBookcamp Week 3 Assignment. The base mockup, user story, acceptance criteria were provided by UCI Bootcamp Full Stack WebDev Course.
+    - Shield and badges used in this markdown document were sourced from [Shields.io](https://shields.io/).
+    -Starter Code and site images were provided by UCI Bootcamp Course.
+    - This website was inspired by UCIBookcamp Week 3 Assignment. The base mockup, user story, acceptance criteria were provided by UCI Bootcamp Full Stack WebDev Course.
  
 <!-- MARKDOWN LINKS & IMAGES -->
 
