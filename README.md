@@ -32,7 +32,9 @@ The Password Generator app is still in its early stages of development and we re
     THEN the password is either displayed in an alert or written to the page
     
 ## Mock-up
-![mock-up](./assets/mock-up.gif 'demo')
+![mock-up](./assets/image/screenshot.jpeg 'screenshot')
+![mock-up](./assets/image/mock-up.gif 'demo')
+
 ## Contact Me
 
 [![LinkedIn][linkedin-shield]](https://www.linkedin.co``m/in/jen-h-202a1723/)
@@ -47,6 +49,10 @@ The Password Generator app is still in its early stages of development and we re
 [ ] Option to exclude specific characters or symbols.
 [ ] Exclude specific characters or symbols.
 [ ] Strength meter.
+
+## Application Deployment
+
+[Password Generator v1:](https://jenho-webdev.github.io/Password-Generator/)
 
 ## Acknowledgments
 
