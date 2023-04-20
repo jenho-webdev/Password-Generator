@@ -1,16 +1,19 @@
-# 03 JavaScript Challenge: Password Generator
+# 03 JavaScript Web App: Password Generator v1
 
-A Challenge requires you to modify starter code to create an application that enables employees to generate random passwords based on criteria that they’ve selected. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished, responsive user interface that adapts to multiple screen sizes.
+This password generator web app can be a powerful tool that helps users generate strong and unique passwords quickly and easily. The app feature a simple and intuitive user interface that allows users to input their desired password length. It also give the user options on select which types of character that they want to use to generate their new password.
+
+To ensure maximum security, the password generator web app validate the user's requested password length to be in the range of 8 characters long to 128 characters which are difficult for hackers to guess or brute-force. 
+
+The Password Generator app is still in its early stages of development and we released it now as a functional and user friendly password generator, but we planned to add more features to it in the feautre releases. Please see the "Road Map" section of this README document for more features that we planned to add to the app.
+
 
 ## User Story
-
 
     AS AN employee with access to sensitive data
     I WANT to randomly generate a password that meets certain criteria
     SO THAT I can create a strong password that provides greater security
 
 ## Acceptance Criteria
-
 
     GIVEN I need a new, secure password
     WHEN I click the button to generate a password
@@ -27,6 +30,7 @@ A Challenge requires you to modify starter code to create an application that en
     THEN a password is generated that matches the selected criteria
     WHEN the password is generated
     THEN the password is either displayed in an alert or written to the page
+    
 ## Mock-up
 ![mock-up](./assets/mock-up.gif 'demo')
 ## Contact Me
@@ -34,6 +38,15 @@ A Challenge requires you to modify starter code to create an application that en
 [![LinkedIn][linkedin-shield]](https://www.linkedin.co``m/in/jen-h-202a1723/)
 [![Github][Github-shield]](https://github.com/jenho-webdev/Personal-Portfolio)
 [![Slack][slack-shield]](https://jenworkspace-as73396.slack.com/archives/C052QLTJQHG)
+
+## Road Map
+
+[x] Password length validation: must be 8 to 128 characters long password.
+[x] Allow user to pick a at least one type of character to generate their password.
+[ ] Ability to specify certain words or phrases that should be included in the password.
+[ ] Option to exclude specific characters or symbols.
+[ ] Exclude specific characters or symbols.
+[ ] Strength meter.
 
 ## Acknowledgments
 
