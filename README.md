@@ -32,7 +32,7 @@ The Password Generator app is still in its early stages of development and we re
     THEN the password is either displayed in an alert or written to the page
     
 ## Mock-up
-![mock-up](./assets/image/screenshot.jpeg 'screenshot')
+![screenshot](./assets/image/screenshot.jpg 'screenshot')
 ![mock-up](./assets/image/mock-up.gif 'demo')
 
 ## Contact Me
